@@ -1,0 +1,55 @@
+body {
+	font-size:13px;
+	font-family:'Helvetica',arial,sans-serif;
+	margin:0;
+	padding:0;
+}
+
+.container {
+	margin-top:10px;
+}
+
+#generate {
+	display:block;
+	cursor:pointer;
+	font-size:13px;
+	line-height:13px;
+	padding:7px 10px;
+	border:1px solid #333;
+	border-radius:7px;
+	background:#aca410;
+	color:white;
+	display:block;
+	margin:0 auto;
+	text-align:center;
+	text-transform:uppercase;
+	width:33%;
+	margin-top:25px;
+}
+
+.tab .value {
+	display:none;
+	padding:5px 5px 5px 15px;
+	background:#e1e1e1;
+	margin:5px;
+}
+
+.tab {
+	background:none;
+}
+
+.tab.empty .label {
+	background:#e1e1e1;
+	font-style:italic;
+	color:#666;
+	cursor:default;
+}
+
+.tab .label {
+	font-size:12px;
+	text-align:center;
+	border:1px solid #ccc;
+	padding:5px;
+	margin:5px;
+	cursor:pointer;
+}
